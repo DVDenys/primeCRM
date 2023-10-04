@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="PrimeCRM App">
+
+	<title>PrimeCRM</title>
+	<link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<div class="header__block">
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__content">
+					<article class="header__item">
+						<h3 class="visually-hidden">logo section</h3>
+						<a class="header__logo-link" href="/">
+							<img src="../img/logo.svg" class="header__logo-img" alt="logo site">
+							<p class="header__logo-name text-shadow">PrimeCRM</p>
+						</a>
+					</article>
+					<article class="header__item">
+						<h3 class="visually-hidden">nvigation section</h3>
+						<nav class="header__navigation">
+							<ul class="header__list">
+								<li class="header__list-item"><a href="#" class="header__nav-link">Solution</a></li>
+								<li class="header__list-item"><a href="#" class="header__nav-link">Industries</a></li>
+								<li class="header__list-item"><a href="#" class="header__nav-link">Products</a></li>
+								<li class="header__list-item"><a href="#" class="header__nav-link">Resources</a></li>
+								<li class="header__list-item"><a href="#" class="header__nav-link">Pricing</a></li>
+								<li class="header__list-item drop_shadow"><a href="#" class="header__nav-link">Login</a>
+								</li>
+							</ul>
+						</nav>
+						<button class="mobile-nav-btn">
+							<div class="nav-icon"></div>
+						</button>
+						@@include('./blocks/mobile-nav.html')
+					</article>
+				</div>
+			</header>
+		</div>
+	</div>
+
+	<main></main>
+	<footer></footer>
+	<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>
